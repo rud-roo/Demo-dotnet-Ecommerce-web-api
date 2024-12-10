@@ -1,6 +1,21 @@
-@dotnet_ecommerce_webapi_HostAddress = http://localhost:5003
 
-GET {{dotnet_ecommerce_webapi_HostAddress}}/weatherforecast/
-Accept: application/json
+GET http://localhost:5003/
+###
 
+GET http://localhost:5003/hello
+###
+
+GET http://localhost:5003/hello1
+###
+
+POST http://localhost:5003/hello
+###
+
+PUT http://localhost:5003/hello
+###
+
+DELETE http://localhost:5003/hello
+###
+
+GET http://localhost:5003/products
 ###
